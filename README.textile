@@ -2,13 +2,17 @@ h1(#nginx_8track_module). Nginx 8-track Module
 
 A NGINX module to enable your players to immediately jump to any part of the audio regardless of the length of the audio or whether it has all been downloaded yet. And you can create a sub clip with a partial content like start from second 10 and end in second 30 create a new file with 20 seconds.
 
-*This module is not distributed with the Nginx source. See "the installation instructions":
+** This module is not distributed with the Nginx source. See "the installation instructions":
 
 
 h1(#nginx_8tracke_usage). Usage: Specify a start time:
+
 <pre>
 wget -O test.mp3 "http://localhost/sound.mp3?start=50"
 </pre>
+
 This saves a file (test.mp3) on your local disk that will have the first 50 seconds removed from the original (sound.mp3) audio. You can use your favorite player to listen if worked okay.
 
-Working in progress -> Wait for news soon
+
+
+** Working in progress -> Wait for news soon
